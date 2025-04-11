@@ -30,7 +30,7 @@ namespace XMLWeather
             this.Controls.Add(cs);
         }
 
-        private void ExtractForecast()
+        public static void ExtractForecast()
         {
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/forecast/daily?q=Stratford,CA&mode=xml&units=metric&cnt=7&appid=3f2e224b815c0ed45524322e145149f0");
 
@@ -52,9 +52,10 @@ namespace XMLWeather
                 //add day to list of days
                 days.Add(d);
             }
+
         }
 
-        private void ExtractCurrent()
+        public static void ExtractCurrent()
         {
             // current info is not included in forecast file so we need to use this file to get it
             XmlReader reader = XmlReader.Create("http://api.openweathermap.org/data/2.5/weather?q=Stratford,CA&mode=xml&units=metric&appid=3f2e224b815c0ed45524322e145149f0");

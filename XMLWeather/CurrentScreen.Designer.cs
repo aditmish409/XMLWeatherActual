@@ -28,41 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.cityOutput = new System.Windows.Forms.Label();
-            this.maxOutput = new System.Windows.Forms.Label();
+            this.currentCityOutput = new System.Windows.Forms.Label();
             this.maxLabel = new System.Windows.Forms.Label();
-            this.minOutput = new System.Windows.Forms.Label();
             this.minLabel = new System.Windows.Forms.Label();
-            this.currentOutput = new System.Windows.Forms.Label();
             this.tempLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.forecastLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.todayDateLabel = new System.Windows.Forms.Label();
             this.currentTempOutput = new System.Windows.Forms.Label();
-            this.dateLabel = new System.Windows.Forms.Label();
+            this.minOutput = new System.Windows.Forms.Label();
+            this.maxOutput = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // cityOutput
+            // currentCityOutput
             // 
-            this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(4, 99);
-            this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(325, 28);
-            this.cityOutput.TabIndex = 22;
-            this.cityOutput.Text = "City";
-            this.cityOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // maxOutput
-            // 
-            this.maxOutput.BackColor = System.Drawing.Color.White;
-            this.maxOutput.Location = new System.Drawing.Point(163, 430);
-            this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.maxOutput.Name = "maxOutput";
-            this.maxOutput.Size = new System.Drawing.Size(151, 16);
-            this.maxOutput.TabIndex = 32;
+            this.currentCityOutput.BackColor = System.Drawing.Color.Transparent;
+            this.currentCityOutput.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.currentCityOutput.ForeColor = System.Drawing.Color.White;
+            this.currentCityOutput.Location = new System.Drawing.Point(4, 99);
+            this.currentCityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.currentCityOutput.Name = "currentCityOutput";
+            this.currentCityOutput.Size = new System.Drawing.Size(325, 28);
+            this.currentCityOutput.TabIndex = 22;
+            this.currentCityOutput.Text = "City";
+            this.currentCityOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // maxLabel
             // 
@@ -75,40 +65,21 @@
             this.maxLabel.TabIndex = 31;
             this.maxLabel.Text = "Max";
             // 
-            // minOutput
-            // 
-            this.minOutput.BackColor = System.Drawing.Color.White;
-            this.minOutput.Location = new System.Drawing.Point(163, 357);
-            this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.minOutput.Name = "minOutput";
-            this.minOutput.Size = new System.Drawing.Size(151, 16);
-            this.minOutput.TabIndex = 30;
-            // 
             // minLabel
             // 
             this.minLabel.AutoSize = true;
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(39, 357);
+            this.minLabel.Location = new System.Drawing.Point(39, 370);
             this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minLabel.Name = "minLabel";
             this.minLabel.Size = new System.Drawing.Size(28, 16);
             this.minLabel.TabIndex = 29;
             this.minLabel.Text = "Min";
             // 
-            // currentOutput
-            // 
-            this.currentOutput.BackColor = System.Drawing.Color.Transparent;
-            this.currentOutput.ForeColor = System.Drawing.Color.White;
-            this.currentOutput.Location = new System.Drawing.Point(172, 244);
-            this.currentOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.currentOutput.Name = "currentOutput";
-            this.currentOutput.Size = new System.Drawing.Size(29, 16);
-            this.currentOutput.TabIndex = 28;
-            // 
             // tempLabel
             // 
             this.tempLabel.ForeColor = System.Drawing.Color.White;
-            this.tempLabel.Location = new System.Drawing.Point(29, 303);
+            this.tempLabel.Location = new System.Drawing.Point(29, 307);
             this.tempLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tempLabel.Name = "tempLabel";
             this.tempLabel.Size = new System.Drawing.Size(136, 23);
@@ -152,48 +123,66 @@
             this.label5.Text = "____________________________";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // todayDateLabel
+            // 
+            this.todayDateLabel.BackColor = System.Drawing.Color.Transparent;
+            this.todayDateLabel.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.todayDateLabel.ForeColor = System.Drawing.Color.White;
+            this.todayDateLabel.Location = new System.Drawing.Point(4, 143);
+            this.todayDateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.todayDateLabel.Name = "todayDateLabel";
+            this.todayDateLabel.Size = new System.Drawing.Size(325, 28);
+            this.todayDateLabel.TabIndex = 44;
+            this.todayDateLabel.Text = "Date";
+            this.todayDateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // currentTempOutput
             // 
-            this.currentTempOutput.BackColor = System.Drawing.Color.Transparent;
+            this.currentTempOutput.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentTempOutput.ForeColor = System.Drawing.Color.White;
-            this.currentTempOutput.Location = new System.Drawing.Point(164, 244);
+            this.currentTempOutput.Location = new System.Drawing.Point(172, 307);
             this.currentTempOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.currentTempOutput.Name = "currentTempOutput";
-            this.currentTempOutput.Size = new System.Drawing.Size(141, 16);
-            this.currentTempOutput.TabIndex = 43;
-            this.currentTempOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.currentTempOutput.Size = new System.Drawing.Size(136, 23);
+            this.currentTempOutput.TabIndex = 45;
             // 
-            // dateLabel
+            // minOutput
             // 
-            this.dateLabel.BackColor = System.Drawing.Color.Transparent;
-            this.dateLabel.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateLabel.ForeColor = System.Drawing.Color.White;
-            this.dateLabel.Location = new System.Drawing.Point(4, 143);
-            this.dateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.dateLabel.Name = "dateLabel";
-            this.dateLabel.Size = new System.Drawing.Size(325, 28);
-            this.dateLabel.TabIndex = 44;
-            this.dateLabel.Text = "Date";
-            this.dateLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.minOutput.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.minOutput.ForeColor = System.Drawing.Color.White;
+            this.minOutput.Location = new System.Drawing.Point(172, 370);
+            this.minOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.minOutput.Name = "minOutput";
+            this.minOutput.Size = new System.Drawing.Size(136, 23);
+            this.minOutput.TabIndex = 46;
+            // 
+            // maxOutput
+            // 
+            this.maxOutput.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maxOutput.ForeColor = System.Drawing.Color.White;
+            this.maxOutput.Location = new System.Drawing.Point(172, 430);
+            this.maxOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.maxOutput.Name = "maxOutput";
+            this.maxOutput.Size = new System.Drawing.Size(136, 23);
+            this.maxOutput.TabIndex = 47;
             // 
             // CurrentScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.Controls.Add(this.dateLabel);
+            this.Controls.Add(this.maxOutput);
+            this.Controls.Add(this.minOutput);
             this.Controls.Add(this.currentTempOutput);
+            this.Controls.Add(this.todayDateLabel);
             this.Controls.Add(this.forecastLabel);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.cityOutput);
-            this.Controls.Add(this.maxOutput);
+            this.Controls.Add(this.currentCityOutput);
             this.Controls.Add(this.maxLabel);
-            this.Controls.Add(this.minOutput);
             this.Controls.Add(this.minLabel);
-            this.Controls.Add(this.currentOutput);
             this.Controls.Add(this.tempLabel);
             this.Controls.Add(this.label5);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CurrentScreen";
             this.Size = new System.Drawing.Size(333, 492);
             this.ResumeLayout(false);
@@ -202,17 +191,16 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label cityOutput;
-        private System.Windows.Forms.Label maxOutput;
+        private System.Windows.Forms.Label currentCityOutput;
         private System.Windows.Forms.Label maxLabel;
-        private System.Windows.Forms.Label minOutput;
         private System.Windows.Forms.Label minLabel;
-        private System.Windows.Forms.Label currentOutput;
         private System.Windows.Forms.Label tempLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label forecastLabel;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label todayDateLabel;
         private System.Windows.Forms.Label currentTempOutput;
-        private System.Windows.Forms.Label dateLabel;
+        private System.Windows.Forms.Label minOutput;
+        private System.Windows.Forms.Label maxOutput;
     }
 }

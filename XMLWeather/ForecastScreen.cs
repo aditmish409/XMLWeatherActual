@@ -20,12 +20,12 @@ namespace XMLWeather
         public void displayForecast()
         {
             date1.Text = Form1.days[1].date;
-            min1.Text = Form1.days[1].tempLow;
-            max1.Text = Form1.days[1].tempHigh;
+            min1.Text = $"{Convert.ToString(decimal.Round(Convert.ToDecimal(Form1.days[1].tempLow), 0))}";
+            max1.Text = $"{Convert.ToString(decimal.Round(Convert.ToDecimal(Form1.days[1].tempHigh), 0))}";
 
             date2.Text = Form1.days[2].date;
-            min2.Text = Form1.days[2].tempLow;
-            max2.Text = Form1.days[2].tempHigh;
+            min2.Text = $"{Convert.ToString(decimal.Round(Convert.ToDecimal(Form1.days[2].tempLow), 0))}";
+            max2.Text = $"{Convert.ToString(decimal.Round(Convert.ToDecimal(Form1.days[2].tempHigh), 0))}";
         }
 
         private void label3_Click(object sender, EventArgs e)
