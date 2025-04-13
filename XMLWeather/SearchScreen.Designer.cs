@@ -38,16 +38,21 @@
             // 
             // searchCityBar
             // 
-            this.searchCityBar.Location = new System.Drawing.Point(42, 41);
+            this.searchCityBar.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchCityBar.Location = new System.Drawing.Point(161, 63);
+            this.searchCityBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.searchCityBar.Name = "searchCityBar";
-            this.searchCityBar.Size = new System.Drawing.Size(248, 22);
+            this.searchCityBar.Size = new System.Drawing.Size(278, 61);
             this.searchCityBar.TabIndex = 72;
+            this.searchCityBar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // addCity
             // 
-            this.addCity.Location = new System.Drawing.Point(128, 114);
+            this.addCity.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addCity.Location = new System.Drawing.Point(235, 245);
+            this.addCity.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.addCity.Name = "addCity";
-            this.addCity.Size = new System.Drawing.Size(75, 23);
+            this.addCity.Size = new System.Drawing.Size(130, 47);
             this.addCity.TabIndex = 73;
             this.addCity.Text = "Add";
             this.addCity.UseVisualStyleBackColor = true;
@@ -55,9 +60,11 @@
             // 
             // backButton
             // 
-            this.backButton.Location = new System.Drawing.Point(128, 143);
+            this.backButton.Font = new System.Drawing.Font("Palatino Linotype", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backButton.Location = new System.Drawing.Point(235, 300);
+            this.backButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(75, 23);
+            this.backButton.Size = new System.Drawing.Size(130, 47);
             this.backButton.TabIndex = 74;
             this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
@@ -65,49 +72,53 @@
             // 
             // searchCountryBar
             // 
-            this.searchCountryBar.Location = new System.Drawing.Point(42, 69);
+            this.searchCountryBar.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.searchCountryBar.Location = new System.Drawing.Point(161, 153);
+            this.searchCountryBar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.searchCountryBar.Name = "searchCountryBar";
-            this.searchCountryBar.Size = new System.Drawing.Size(248, 22);
+            this.searchCountryBar.Size = new System.Drawing.Size(278, 61);
             this.searchCountryBar.TabIndex = 75;
+            this.searchCountryBar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(4, 198);
+            this.cityOutput.Location = new System.Drawing.Point(118, 402);
             this.cityOutput.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(325, 200);
+            this.cityOutput.Size = new System.Drawing.Size(366, 110);
             this.cityOutput.TabIndex = 76;
-            this.cityOutput.Text = "City";
             this.cityOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // errorLabel
             // 
             this.errorLabel.BackColor = System.Drawing.Color.Transparent;
-            this.errorLabel.Font = new System.Drawing.Font("Agency FB", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorLabel.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errorLabel.ForeColor = System.Drawing.Color.White;
-            this.errorLabel.Location = new System.Drawing.Point(4, 398);
+            this.errorLabel.Location = new System.Drawing.Point(118, 551);
             this.errorLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.errorLabel.Name = "errorLabel";
-            this.errorLabel.Size = new System.Drawing.Size(325, 40);
+            this.errorLabel.Size = new System.Drawing.Size(366, 143);
             this.errorLabel.TabIndex = 77;
             this.errorLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SearchScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackgroundImage = global::XMLWeather.Properties.Resources.ihfnlpbze7o01;
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.cityOutput);
             this.Controls.Add(this.searchCountryBar);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.addCity);
             this.Controls.Add(this.searchCityBar);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "SearchScreen";
-            this.Size = new System.Drawing.Size(333, 492);
+            this.Size = new System.Drawing.Size(590, 769);
             this.ResumeLayout(false);
             this.PerformLayout();
 
