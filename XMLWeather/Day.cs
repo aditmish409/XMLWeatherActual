@@ -21,10 +21,10 @@ namespace XMLWeather
             symbolNumber, symbolName, country;
 
         //used for xml forecast codes
-        public int code;
+        public int number;
 
         //used for forecast images
-        public Image weatherPic;
+        public static Image weatherPic;
 
         //assigned values at start of the program
         public Day()
@@ -32,7 +32,7 @@ namespace XMLWeather
             date = currentTemp = condition = location = tempHigh = tempLow
                 = symbolNumber = symbolName = country = "";
 
-            code = 0;
+            number = 0;
 
             weatherPic = null;
         }
@@ -40,33 +40,33 @@ namespace XMLWeather
         //display image based on xml code for the weather forecast
         public static void ImageGenerator(Day d)
         {
-            if (d.code >= 200 && d.code < 300)
+            if (d.number >= 200 && d.number < 300)
             {
-                //d.weatherPic = Properties.Resources.thunderstorm; //not working
+                //weatherPic = Properties.Resources.thunderstorm; //not finished
             }
-            else if (d.code >= 300 && d.code < 400)
+            else if (d.number >= 300 && d.number < 400)
             {
-                //d.weatherPic = Properties.Resources.drizzle; //not working
+                //d.weatherPic = Properties.Resources.drizzle; //not finished
             }
-            else if (d.code >= 500 && d.code < 600)
+            else if (d.number >= 500 && d.number < 600)
             {
-                //d.weatherPic = Properties.Resources.rain; //not working
+                //d.weatherPic = Properties.Resources.rain; //not finished
             }
-            else if (d.code >= 600 && d.code < 700)
+            else if (d.number >= 600 && d.number < 700)
             {
-                //d.weatherPic = Properties.Resources.snow; //not working
+                //d.weatherPic = Properties.Resources.snow; //not finished
             }
-            else if (d.code >= 700 && d.code < 800)
+            else if (d.number >= 700 && d.number < 800)
             {
-                //d.weatherPic = Properties.Resources.mist; //not working
+                //d.weatherPic = Properties.Resources.mist; //not finished
             }
-            else if (d.code == 800)
+            else if (d.number == 800)
             {
-                //d.weatherPic = Properties.Resources.clear; //not working
+                //d.weatherPic = Properties.Resources.clear; //not finished
             }
-            else if (d.code >= 801)
+            else if (d.number >= 801)
             {
-                //d.weatherPic = Properties.Resources.broken_clouds; //not working
+                //d.weatherPic = Properties.Resources.broken_clouds; //not finished
             }
         }
     }

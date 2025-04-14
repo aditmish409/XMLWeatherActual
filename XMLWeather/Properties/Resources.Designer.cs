@@ -142,12 +142,12 @@ namespace XMLWeather.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static byte[] thunderstorm {
+        internal static System.Drawing.Bitmap thunderstorm {
             get {
                 object obj = ResourceManager.GetObject("thunderstorm", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
     }

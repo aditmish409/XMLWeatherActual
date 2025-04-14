@@ -66,7 +66,8 @@ namespace XMLWeather
                     d.date = reader.GetAttribute("day");
 
                     reader.ReadToFollowing("symbol");
-                    d.code = Convert.ToInt16(reader.GetAttribute("code"));
+                    d.symbolName = reader.GetAttribute("name");
+                    d.number = Convert.ToInt16(reader.GetAttribute("number"));
 
                     reader.ReadToFollowing("temperature");
                     d.tempLow = reader.GetAttribute("min");
@@ -107,7 +108,7 @@ namespace XMLWeather
                 days[0].currentTemp = reader.GetAttribute("value");
 
                 reader.ReadToFollowing("weather");
-                days[0].code = Convert.ToInt16(reader.GetAttribute("code"));
+                days[0].number = Convert.ToInt16(reader.GetAttribute("number"));
                 days[0].symbolName = reader.GetAttribute("value");
             }
             catch

@@ -46,6 +46,10 @@ namespace XMLWeather
             min3.Text = $"{Convert.ToString(decimal.Round(Convert.ToDecimal(Form1.days[3].tempLow), 0))}  C";
             max3.Text = $"{Convert.ToString(decimal.Round(Convert.ToDecimal(Form1.days[3].tempHigh), 0))}  C";
 
+            forecastConditionLabel1.Text = Form1.days[1].symbolName;
+            forecastConditionLabel2.Text = Form1.days[2].symbolName;
+            forecastConditionLabel3.Text = Form1.days[3].symbolName;
+
             //used for images for weather conditions
             int counter = 1;
 

@@ -45,6 +45,9 @@
             this.max3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.date3 = new System.Windows.Forms.Label();
+            this.forecastConditionLabel3 = new System.Windows.Forms.Label();
+            this.forecastConditionLabel2 = new System.Windows.Forms.Label();
+            this.forecastConditionLabel1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // searchLabel2
@@ -53,10 +56,10 @@
             this.searchLabel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.searchLabel2.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLabel2.ForeColor = System.Drawing.Color.White;
-            this.searchLabel2.Location = new System.Drawing.Point(300, 643);
+            this.searchLabel2.Location = new System.Drawing.Point(267, 514);
             this.searchLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchLabel2.Name = "searchLabel2";
-            this.searchLabel2.Size = new System.Drawing.Size(274, 69);
+            this.searchLabel2.Size = new System.Drawing.Size(244, 56);
             this.searchLabel2.TabIndex = 62;
             this.searchLabel2.Text = "Search";
             this.searchLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -68,10 +71,10 @@
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(17, 643);
+            this.label3.Location = new System.Drawing.Point(15, 514);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(255, 69);
+            this.label3.Size = new System.Drawing.Size(227, 56);
             this.label3.TabIndex = 61;
             this.label3.Text = "Today";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -82,10 +85,10 @@
             this.min1.BackColor = System.Drawing.Color.Transparent;
             this.min1.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min1.ForeColor = System.Drawing.Color.White;
-            this.min1.Location = new System.Drawing.Point(322, 88);
+            this.min1.Location = new System.Drawing.Point(246, 78);
             this.min1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min1.Name = "min1";
-            this.min1.Size = new System.Drawing.Size(191, 58);
+            this.min1.Size = new System.Drawing.Size(119, 46);
             this.min1.TabIndex = 48;
             this.min1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -93,10 +96,10 @@
             // 
             this.minLabel.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minLabel.ForeColor = System.Drawing.Color.White;
-            this.minLabel.Location = new System.Drawing.Point(49, 88);
+            this.minLabel.Location = new System.Drawing.Point(4, 78);
             this.minLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.minLabel.Name = "minLabel";
-            this.minLabel.Size = new System.Drawing.Size(263, 58);
+            this.minLabel.Size = new System.Drawing.Size(234, 46);
             this.minLabel.TabIndex = 46;
             this.minLabel.Text = "Min Temperature";
             this.minLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -106,10 +109,10 @@
             this.max1.BackColor = System.Drawing.Color.Transparent;
             this.max1.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max1.ForeColor = System.Drawing.Color.White;
-            this.max1.Location = new System.Drawing.Point(322, 157);
+            this.max1.Location = new System.Drawing.Point(246, 134);
             this.max1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max1.Name = "max1";
-            this.max1.Size = new System.Drawing.Size(191, 58);
+            this.max1.Size = new System.Drawing.Size(119, 46);
             this.max1.TabIndex = 45;
             this.max1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -117,10 +120,10 @@
             // 
             this.maxLabel.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maxLabel.ForeColor = System.Drawing.Color.White;
-            this.maxLabel.Location = new System.Drawing.Point(51, 157);
+            this.maxLabel.Location = new System.Drawing.Point(5, 134);
             this.maxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.maxLabel.Name = "maxLabel";
-            this.maxLabel.Size = new System.Drawing.Size(263, 58);
+            this.maxLabel.Size = new System.Drawing.Size(234, 46);
             this.maxLabel.TabIndex = 44;
             this.maxLabel.Text = "Max Temperature";
             this.maxLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -129,10 +132,10 @@
             // 
             this.date1.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date1.ForeColor = System.Drawing.Color.White;
-            this.date1.Location = new System.Drawing.Point(62, 14);
+            this.date1.Location = new System.Drawing.Point(15, 19);
             this.date1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date1.Name = "date1";
-            this.date1.Size = new System.Drawing.Size(453, 59);
+            this.date1.Size = new System.Drawing.Size(403, 47);
             this.date1.TabIndex = 64;
             this.date1.Text = "Date";
             this.date1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -141,10 +144,10 @@
             // 
             this.date2.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date2.ForeColor = System.Drawing.Color.White;
-            this.date2.Location = new System.Drawing.Point(62, 225);
+            this.date2.Location = new System.Drawing.Point(15, 188);
             this.date2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date2.Name = "date2";
-            this.date2.Size = new System.Drawing.Size(453, 59);
+            this.date2.Size = new System.Drawing.Size(403, 47);
             this.date2.TabIndex = 69;
             this.date2.Text = "Date";
             this.date2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -154,10 +157,10 @@
             this.min2.BackColor = System.Drawing.Color.Transparent;
             this.min2.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min2.ForeColor = System.Drawing.Color.White;
-            this.min2.Location = new System.Drawing.Point(322, 284);
+            this.min2.Location = new System.Drawing.Point(246, 235);
             this.min2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min2.Name = "min2";
-            this.min2.Size = new System.Drawing.Size(191, 57);
+            this.min2.Size = new System.Drawing.Size(119, 46);
             this.min2.TabIndex = 78;
             this.min2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -165,10 +168,10 @@
             // 
             this.label2.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(49, 284);
+            this.label2.Location = new System.Drawing.Point(4, 235);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(263, 57);
+            this.label2.Size = new System.Drawing.Size(234, 46);
             this.label2.TabIndex = 77;
             this.label2.Text = "Min Temperature";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -178,10 +181,10 @@
             this.max2.BackColor = System.Drawing.Color.Transparent;
             this.max2.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max2.ForeColor = System.Drawing.Color.White;
-            this.max2.Location = new System.Drawing.Point(324, 350);
+            this.max2.Location = new System.Drawing.Point(248, 288);
             this.max2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max2.Name = "max2";
-            this.max2.Size = new System.Drawing.Size(191, 57);
+            this.max2.Size = new System.Drawing.Size(117, 46);
             this.max2.TabIndex = 76;
             this.max2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -189,10 +192,10 @@
             // 
             this.label8.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(53, 350);
+            this.label8.Location = new System.Drawing.Point(7, 288);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(263, 57);
+            this.label8.Size = new System.Drawing.Size(234, 46);
             this.label8.TabIndex = 75;
             this.label8.Text = "Max Temperature";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -202,10 +205,10 @@
             this.min3.BackColor = System.Drawing.Color.Transparent;
             this.min3.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.min3.ForeColor = System.Drawing.Color.White;
-            this.min3.Location = new System.Drawing.Point(324, 480);
+            this.min3.Location = new System.Drawing.Point(248, 392);
             this.min3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.min3.Name = "min3";
-            this.min3.Size = new System.Drawing.Size(191, 54);
+            this.min3.Size = new System.Drawing.Size(117, 43);
             this.min3.TabIndex = 83;
             this.min3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -213,10 +216,10 @@
             // 
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(47, 480);
+            this.label4.Location = new System.Drawing.Point(2, 392);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(263, 54);
+            this.label4.Size = new System.Drawing.Size(234, 43);
             this.label4.TabIndex = 82;
             this.label4.Text = "Min Temperature";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -226,10 +229,10 @@
             this.max3.BackColor = System.Drawing.Color.Transparent;
             this.max3.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.max3.ForeColor = System.Drawing.Color.White;
-            this.max3.Location = new System.Drawing.Point(324, 547);
+            this.max3.Location = new System.Drawing.Point(248, 446);
             this.max3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.max3.Name = "max3";
-            this.max3.Size = new System.Drawing.Size(191, 54);
+            this.max3.Size = new System.Drawing.Size(117, 43);
             this.max3.TabIndex = 81;
             this.max3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -237,10 +240,10 @@
             // 
             this.label6.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(47, 547);
+            this.label6.Location = new System.Drawing.Point(2, 446);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(263, 54);
+            this.label6.Size = new System.Drawing.Size(234, 43);
             this.label6.TabIndex = 80;
             this.label6.Text = "Max Temperature";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -249,20 +252,59 @@
             // 
             this.date3.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.date3.ForeColor = System.Drawing.Color.White;
-            this.date3.Location = new System.Drawing.Point(62, 421);
+            this.date3.Location = new System.Drawing.Point(15, 345);
             this.date3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.date3.Name = "date3";
-            this.date3.Size = new System.Drawing.Size(453, 59);
+            this.date3.Size = new System.Drawing.Size(403, 47);
             this.date3.TabIndex = 79;
             this.date3.Text = "Date";
             this.date3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // forecastConditionLabel3
+            // 
+            this.forecastConditionLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.forecastConditionLabel3.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastConditionLabel3.ForeColor = System.Drawing.Color.White;
+            this.forecastConditionLabel3.Location = new System.Drawing.Point(373, 392);
+            this.forecastConditionLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastConditionLabel3.Name = "forecastConditionLabel3";
+            this.forecastConditionLabel3.Size = new System.Drawing.Size(117, 97);
+            this.forecastConditionLabel3.TabIndex = 84;
+            this.forecastConditionLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // forecastConditionLabel2
+            // 
+            this.forecastConditionLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.forecastConditionLabel2.Font = new System.Drawing.Font("Palatino Linotype", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastConditionLabel2.ForeColor = System.Drawing.Color.White;
+            this.forecastConditionLabel2.Location = new System.Drawing.Point(373, 235);
+            this.forecastConditionLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastConditionLabel2.Name = "forecastConditionLabel2";
+            this.forecastConditionLabel2.Size = new System.Drawing.Size(117, 97);
+            this.forecastConditionLabel2.TabIndex = 85;
+            this.forecastConditionLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // forecastConditionLabel1
+            // 
+            this.forecastConditionLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.forecastConditionLabel1.Font = new System.Drawing.Font("Palatino Linotype", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.forecastConditionLabel1.ForeColor = System.Drawing.Color.White;
+            this.forecastConditionLabel1.Location = new System.Drawing.Point(373, 78);
+            this.forecastConditionLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.forecastConditionLabel1.Name = "forecastConditionLabel1";
+            this.forecastConditionLabel1.Size = new System.Drawing.Size(117, 97);
+            this.forecastConditionLabel1.TabIndex = 86;
+            this.forecastConditionLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // ForecastScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImage = global::XMLWeather.Properties.Resources.ihfnlpbze7o01;
+            this.Controls.Add(this.forecastConditionLabel1);
+            this.Controls.Add(this.forecastConditionLabel2);
+            this.Controls.Add(this.forecastConditionLabel3);
             this.Controls.Add(this.min3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.max3);
@@ -280,9 +322,9 @@
             this.Controls.Add(this.minLabel);
             this.Controls.Add(this.max1);
             this.Controls.Add(this.maxLabel);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ForecastScreen";
-            this.Size = new System.Drawing.Size(590, 769);
+            this.Size = new System.Drawing.Size(524, 615);
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.ForecastScreen_Paint);
             this.ResumeLayout(false);
 
@@ -307,5 +349,8 @@
         private System.Windows.Forms.Label max3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label date3;
+        private System.Windows.Forms.Label forecastConditionLabel3;
+        private System.Windows.Forms.Label forecastConditionLabel2;
+        private System.Windows.Forms.Label forecastConditionLabel1;
     }
 }
