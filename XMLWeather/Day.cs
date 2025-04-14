@@ -18,7 +18,7 @@ namespace XMLWeather
     {
         //strings used to display various features on app
         public string date, currentTemp, condition, location, tempHigh, tempLow, 
-            symbolNumber, symbolName, country;
+        symbolNumber, symbolName, country;
 
         //used for xml forecast codes
         public int number;
@@ -42,31 +42,31 @@ namespace XMLWeather
         {
             if (d.number >= 200 && d.number < 300)
             {
-                //weatherPic = Properties.Resources.thunderstorm; //not finished
+                weatherPic = Properties.Resources.thunderstorm; 
             }
             else if (d.number >= 300 && d.number < 400)
             {
-                //d.weatherPic = Properties.Resources.drizzle; //not finished
+                weatherPic = Properties.Resources.drizzle; 
             }
             else if (d.number >= 500 && d.number < 600)
             {
-                //d.weatherPic = Properties.Resources.rain; //not finished
+                weatherPic = Properties.Resources.rain; 
             }
             else if (d.number >= 600 && d.number < 700)
             {
-                //d.weatherPic = Properties.Resources.snow; //not finished
+                weatherPic = Properties.Resources.snow; 
             }
             else if (d.number >= 700 && d.number < 800)
             {
-                //d.weatherPic = Properties.Resources.mist; //not finished
+                weatherPic = Properties.Resources.mist; 
             }
             else if (d.number == 800)
             {
-                //d.weatherPic = Properties.Resources.clear; //not finished
+                weatherPic = Properties.Resources.clear; 
             }
             else if (d.number >= 801)
             {
-                //d.weatherPic = Properties.Resources.broken_clouds; //not finished
+                weatherPic = Properties.Resources.broken_clouds; 
             }
         }
     }
